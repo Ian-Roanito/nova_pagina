@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+header {
+    background-color: gray;
+    height: 8vh;
+}
+
+header h1 {
+    letter-spacing: 2px;
+}
+
+header > nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.item {
+    width: 32px;
+    height: 2px;
+    background-color: white;
+    margin: 8px;
+}
+
+#nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+#nav-list > li {
+    margin-left: 20px;
+    
+}
+
+#nav-list > li > a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+@media screen and (min-width: 330px) and (max-width: 768px) {
+    #nav-list {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hamburguer {
+        display: none;
+    }
+
+    
+}
+
