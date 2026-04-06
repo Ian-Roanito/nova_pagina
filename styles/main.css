@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+main {
+    background-color: var(--variante5);
+}
+
+.img {
+    height: 60vh;
+    background: gray url('../imagens/andrea-caramello-7LgwmO6cDrU-unsplash.jpg') top center no-repeat scroll;
+    background-size: cover;
+}
+
+.container {
+    width: 80vw;
+    background-color: lightgray;
+    margin: auto;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    width: 232px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(77, 74, 74);
+}
+
+.container > div > h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--variante3)
+}
+
+.container > div > ul {
+    list-style: inside;
+}
+
+.container > div > p {
+    text-align: justify;
+    font-size: 1em;
+}

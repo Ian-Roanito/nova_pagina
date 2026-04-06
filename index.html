@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
 
     <title>Nova Página</title>
 </head>
@@ -15,13 +16,13 @@
         <nav>
             <h1>Nome Página</h1>
 
-            <div class="hamburguer">
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
+            <div id="hamburguer" class="mobile-menu">
+                <div class="item1"></div>
+                <div class="item2"></div>
+                <div class="item3"></div>
             </div>
             
-            <ul id="nav-list">
+            <ul id="nav-list" class="nav-list">
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
                 <li><a href="#">Opção 3</a></li>
@@ -30,5 +31,34 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section id="img" class="img"></section>
+        <section id="container" class="container">
+            <div class="box1">
+                <h3>Title here</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit veniam quia quaerat ipsam accusamus nesciunt optio, reprehenderit, iste labore, atque ipsum inventore fuga dolorum earum rem! Dolorem cupiditate maiores vero.</p>
+            </div>
+            <div class="box2">
+                <h3>Title here</h3>
+                <ul>
+                    <li>Your phrase here</li>
+                    <li>Your phrase here</li>
+                    <li>Your phrase here</li>
+                    <li>Your phrase here</li>
+                    <li>Your phrase here</li>
+                    <li>Your phrase here</li>
+                    <li>Your phrase here</li>
+                    <li>Your phrase here</li>
+                </ul>
+            </div>
+            <div class="box3">
+                <h3>Title here</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quam non laborum veritatis laudantium est similique temporibus praesentium et a, dignissimos cupiditate. Iure architecto accusantium cupiditate doloribus non ab commodi.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="javascript/hambuuguer.js"></script>
 </body>
 </html>
