@@ -45,3 +45,41 @@ main {
     text-align: justify;
     font-size: 1em;
 }
+
+#section-contacts {
+    background-color: var(--variante3);
+}
+
+#section-contacts h2 {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--variante4);
+}
+
+section .redes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes > div {
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: var(--variante4);
+    border-radius: 30px;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 0px 10px;
+}
+
+#btn > button {
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
